@@ -1,1 +1,8 @@
-
+body {
+  background-color: #0ccec4;
+  background-image: url(https://github.com/Zeeboszaira/Hi-I-am-Zeebos/blob/master/Zeebos%20website.svg);
+  background-repeat: repeat-x;
+  display: flex;
+  align-items: center;
+  justify-content:center;
+}
