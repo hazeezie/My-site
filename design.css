@@ -1,29 +1,50 @@
 body {
-  display: flex;
   background-color: #0ccec4;
   background-image: url(https://raw.githubusercontent.com/Zeeboszaira/Hi-I-am-Zeebos/master/BG_Zeebos.png);
   background-position: center;
   display: flex;
-  align-content: center;
-  margin: 10% 10%;
+  align-items: center;
+  justify-content: center;
+  font-family: sans-serif;
+  font-size: 12px;
 }
-div {
+.subbody {
   border-style: none;
   border-radius: 15px;
   background-color: #ffffff;
-  margin: 5%;
-  align-items: center;
+  margin: 10%;
+  padding: 2%;
 }
-div>img {
+.subbody>img {
   border: solid lightgray 5px;
   margin: 2%;
   float: left;
+
 }
 p {
   text-align: center;
-  border-bottom: solid 1px lightgray;
-  padding-bottom: 10px;
+  padding: 2px;
+}
+.divider {
+  width: auto;
+  height: 1px;
+  background-color: lightgray;
+  display: flex;
+  align-self: auto;
+}
+.links {
+  position: relative;
+  display: flex;
+  align-content: center;
+}
+.links>ul>li {
+  list-style: none;
 }
 i {
-  width: 50px;
+  color: black;
+  font-size: 20px;
+  padding: 3px;
+}
+i:hover {
+  color: gray;
 }
