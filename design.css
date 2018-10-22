@@ -15,6 +15,7 @@ body {
   border-radius: 15px;
   background-color: #ffffff;
   padding: 2%;
+  display: flex;
 }
 .subbody>img {
   border: solid lightgray 5px;
