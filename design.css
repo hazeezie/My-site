@@ -1,19 +1,21 @@
 body {
+  margin:0;padding:0;
   background-color: #0ccec4;
-  background-image: url(https://raw.githubusercontent.com/Zeeboszaira/Hi-I-am-Zeebos/master/BG_Zeebos.png);
+  background-image: url(BG_Zeebos.svg);
   background-position: center;
   display: flex;
   align-items: center;
   justify-content: center;
   font-family: sans-serif;
   font-size: 12px;
+  min-height: 100vh;
 }
 .subbody {
   border-style: none;
   border-radius: 15px;
   background-color: #ffffff;
-  margin: 10%;
   padding: 2%;
+  display: flex;
 }
 .subbody>img {
   border: solid lightgray 5px;
