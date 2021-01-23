@@ -1,2 +1,2 @@
-# hzz.netlify.com
-This is my visit card
+# Hello!
+This is my visit card and curriculum vitae
